@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fazendeiro Areias & Britas</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="Css/styles.css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600&amp;display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+<!-- Header -->
+<header id="top">
+    <div class="container header-container">
+        <h1 class="logo">Fazendeiro Areias & Britas</h1>
+        <nav id="nav">
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="NULL" target="_blank">Localização</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Hero -->
+<section id="home" class="hero-section">
+
+    <video autoplay muted loop playsinline class="background-video">
+        <source src="Video/Video-areia.mp4" type="video/mp4" />
+    </video>
+
+    <div class="overlay"></div>
+
+    <div class="hero-content container">
+        <h2>Soluções em Areias e Britas na Medida Certa</h2>
+        <p>Vendemos desde pequenos volumes até grandes quantidades.</p>
+        <a href="#contato" class="cta-btn">Solicite um orçamento</a>
+    </div>
+
+</section>
+
+<!-- Sobre -->
+<section id="about" class="about-section container">
+    <h2>Quem Somos</h2>
+    <p>
+        A <strong>Fazendeiro Areias & Britas</strong> é especializada na comercialização de materiais para construção civil.
+    </p>
+    <p>
+        Oferecemos areias, britas, terra para aterro e jardinagem, com entrega rápida e segura.
+    </p>
+</section>
+
+<!-- Produtos -->
+<section id="produtos" class="products-section">
+    <div class="container">
+        <h2>Nossos Produtos</h2>
+
+        <div class="product-grid">
+
+            <div class="product-card">
+                <img src="img/areias.jpg" alt="areias" />
+                <h3>Areias</h3>
+                <p>Areia Lavada e Moída. Média, fina e grossa.</p>
+            </div>
+
+            <div class="product-card">
+                <img src="img/areia-brita.jpg" alt="britas" />
+                <h3>Britas</h3>
+                <p>Britas em geral.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Contato -->
+<section id="contato" class="contact-section">
+    <div class="container contact-container">
+        <h2>Nossas redes sociais</h2>
+    <div style="display: flex; justify-content: center; gap: 40px; align-items: center;">
+<!-- Watsapp -->
+            <a href="NULL" target="_blank" style="display: block;">
+                <img src="img/wpp.jpg" alt="Enviar pelo WhatsApp" style="width: 200px; height:auto;">
+            </a>
+<!-- Instagram -->
+            <a href="NULL" target="_blank" style="display: block;">
+                <img src="img/instagram.png" alt="Instagram" 
+                     style="width: 130px; height:auto;">
+            </a>
+    </div>
+        <section class="contato">
+            <h2>CONTATO</h2>
+            <div class="contato-container">
+
+                <!-- Formulário -->
+                <form class="form-contato" id="contactForm">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Inserir nome" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Inserir email" required>
+
+                    <label for="telefone">Telefone celular:</label>
+                    <input type="tel" id="telefone" placeholder="Inserir número de telefone">
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" placeholder="Inserir sua mensagem"></textarea>
+
+                    <button type="submit" id="btnEnviar">Enviar</button>
+                </form>
+
+                <!-- Informações -->
+                <div class="info-contato">
+                    <p><strong>Telefone:</strong><br>99 99999-9999</p>
+                    <p><strong>Telefone:</strong><br>99 99999-9999</p>
+                    <p><strong>E-mail:</strong><br><a href="mailto:fazendeiroareiasebritas@gmail.com">fazendeiroareiasebritas@gmail.com</a></p>
+
+                    <p><strong>Localização</strong><br>
+                        <a href="NULL" target="_blank">
+                            <img src="img/Maps.png" alt="Imagem do mapa" height="400" width="500">
+                        </a>
+                    </p>
+                </div>
+
+            </div>
+        </section>
+    </div>
+</section>
+
+<!-- Rodapé -->
+<footer class="footer-section">
+    <div class="container footer-container">
+        <p>&copy; <span id="year"></span> Fazendeiro Areias & Britas. Todos os direitos reservados.</p>
+
+        <div class="whatsapp-contato">
+            <p>
+                <img src="img/wpp.jpg" class="whatsapp-icon" />
+                (55) 99999999999 <br> (55) 9999999-9999
+            </p>
+        </div>
+    </div>
+</footer>
+
+<!-- JS -->
+<script src="Js/script.js"></script>
+
+</body>
+</html>
